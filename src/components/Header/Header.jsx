@@ -8,7 +8,7 @@ const Header = () => {
                 <h3>Navbar</h3>
                 {/* Link is a better version than anchor */}
                 <Link to="/">Home</Link>
-                <Link to="/users">User</Link>
+                <Link to="/users">Users</Link>
                 <Link to={`/about`}>About</Link>
                 <Link to={`/contact`}>Contact</Link>
             </nav>
