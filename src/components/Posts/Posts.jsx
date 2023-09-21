@@ -14,7 +14,7 @@ const Posts = () => {
             posts:{posts.length}
 
             <div style={postsStyle}>
-                {posts.map(post => <Post post={post}></Post>)}
+                {posts.map(post => <Post key={post.idx} post={post}></Post>)}
             </div>
         </div>
     );

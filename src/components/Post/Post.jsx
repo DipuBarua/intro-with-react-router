@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const Post = ({ post }) => {
     const { id, title } = post;
@@ -28,4 +29,7 @@ const Post = ({ post }) => {
     );
 };
 
+Post.propTypes = {
+    post: PropTypes.object,
+};
 export default Post;

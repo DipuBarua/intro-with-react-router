@@ -1,4 +1,4 @@
-import { Link, useLoaderData, useNavigate, useParams } from "react-router-dom";
+import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 
 const PostDetails = () => {
     const postDetails = useLoaderData();

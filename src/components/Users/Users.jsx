@@ -13,7 +13,7 @@ const Users = () => {
             <p>This is fantastic user community</p>
             <div className="usersStyle">
                 {
-                    users.map(user => <User user={user}></User>)
+                    users.map(user => <User key={user.index} user={user}></User>)
                 }
             </div>
         </div>
